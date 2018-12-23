@@ -2,7 +2,7 @@ import wolframalpha
 
 def fun_math(string_):
     try:
-        app_id = "3UU3P8-7PWA3PYLUH"
+        app_id = ""
         client = wolframalpha.Client(app_id)
         res = client.query(string_)
         answer = next(res.results).text
