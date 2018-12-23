@@ -4,8 +4,8 @@ import requests
 import json
 
 # TODO: replace with your own app_id and app_key
-app_id = '2bce5031'
-app_key = '920201819850ccfc00368666b48ebaa6'
+app_id = ''
+app_key = ''
 
 language = 'en'
 def oxford():
